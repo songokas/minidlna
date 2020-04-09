@@ -26,5 +26,8 @@
 
 void update_if_album_art(const char *path);
 int64_t find_album_art(const char *path, uint8_t *image_data, int image_size);
+#ifdef THUMBNAIL_CREATION
+char * generate_thumbnail(const char * path);
+#endif
 
 #endif

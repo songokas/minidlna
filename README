@@ -28,6 +28,7 @@ Prerequisites
 - libvorbis
 - libsqlite3
 - libavformat (the ffmpeg libraries)
+- libffmpegthumbnailer (optional - thumbnail support)
 
 
 Justin Maggard
